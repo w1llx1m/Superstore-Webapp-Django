@@ -21,10 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 
-env = environ.Env("""
-    # set casting, default value
+env = environ.Env(
     DEBUG=(bool, True),
-"""
+    SECRET_KEY=(str, 'sadjksjdsad')
+
 )
 
 
