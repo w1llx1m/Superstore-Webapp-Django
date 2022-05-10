@@ -74,9 +74,19 @@
           </li>
         </ul>
       </div>
+      <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#" data-toggle="modal" data-target="#logoutModal">logout</a>
+            </li>
+          </ul>
 
     </div>
     </nav>
+
+    <div>
+      {% block content %}
+      {% endblock %}
+    </div>
 
 
     <script

@@ -22,8 +22,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 env = environ.Env(
+    """
+    EX:
+    
     DEBUG=(bool, True),
-    SECRET_KEY=(str, 'sadjksjdsad')
+    """
 
 )
 
